@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = 'utf-8'/>
+  <title>Jay Songs</title>
+  <link rel = 'stylesheet' media = 'screen' href = '../styles/basic.css'/>
+</head>
+<body>
+ <header>
+ <img src = '../images/logo.gif' alt = 'Jay Skript and the Domsters'/>
+  <nav>
+   <ul>
+    <li><a href = '../index.html'>Home</a></li>
+    <li><a href = 'about.html'>About</a></li>
+    <li><a href = 'photos.html'>Photos</a></li>
+    <li><a href = 'live.html'>Live</a></li>
+    <li><a href = 'contact.html'>Contact</a></li>
+   </ul>
+  </nav>
+ </header>
+
+ <article>
+
+ <h1>联系我们</h1>
+ <form method = 'post' action = 'submit.html'>
+
+ <fieldset>
+  <p>
+  <label for = 'name'>名字:</label>
+  <input type = "text" id = 'name' name = '姓名' placeholder = '您的名字' required = 'required'/>
+  </p>
+  <p>
+  <label for = 'email'>邮箱:</label>
+  <input type = 'email' id = 'email' name = '邮箱' placeholder = '邮箱地址' required = 'required' />
+  </p>
+  <p>
+  <label for = 'message'>信息:</label>
+  <textarea cols = '45' rows = '7' id = 'message' name = '信息' required = 'required' placeholder = '在这里填写你的信息'></textarea>
+  </p>
+  <input type = 'submit' value = '提交'/>
+  </fieldset>
+
+ </article>
+  <script src = '../scripts/global.js'></script>
+</body>
+</html>
+
+
