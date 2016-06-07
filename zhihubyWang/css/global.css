@@ -1,0 +1,171 @@
+/*logo部分*/
+body{
+	color:#555;
+	background: #f7fafc;
+	font-size: 18px;
+	font-family:'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+}
+a:hover{
+	text-decoration:none;
+}
+.index-header h1{
+	background:url(../images/logo.png) no-repeat ;
+	text-indent:-99em;
+	height:74px;
+	width:160px;
+	margin:53px auto 0;
+}  
+.index-header h2{
+	font-size: 18px;
+	width:270px;
+	margin:0 auto;
+	padding:25px;
+	line-height: 28px;
+	text-align:center;
+	font-weight:400;
+}
+.index-tab-navs {
+	margin:0 auto;
+	width:300px;
+	text-align: center;
+}
+.index-tab-navs a{
+	font-size:18px;
+	padding:6px;
+	margin:6px;
+	color: inherit;
+
+}
+.index-tab-navs a:hover{
+	color:#3291d9 ;
+	text-decoration:none;
+}
+/*注册表单*/
+.signUpForm{
+	width:300px;
+	margin:0 auto;
+	padding-top: 13px;
+}
+.signUpForm input{
+	border:1px solid #e8e8e8;
+	background:#fff;
+	padding:5px 10px;
+	width:100%;
+	height:3.3em;
+    box-sizing: border-box;
+}
+/*登录表单*/
+.signInForm{
+	width:300px;
+	margin:0 auto;
+	padding-top: 13px;
+}
+.signInForm input{
+	border:1px solid #e8e8e8;
+	background:#fff;
+	padding:5px 10px;
+	width:100%;
+	height:3.3em;
+    box-sizing: border-box;
+}
+.signInForm .input-remember {
+	width:300px;
+	height:30px;
+	margin:7px 0;
+}
+.signInForm .input-remember .rememberButton{
+	height:auto;
+	width: auto;
+	border:none;
+	margin:12px 0 0 0;
+	padding: 0;
+	float:left;
+
+}
+.signInForm .input-remember .unable-login{
+	float:right;
+	font-size:0.8em;
+	padding-top:10px;
+	color:inherit;
+}
+.signInForm .input-remember  a:hover{
+	color:#3291d9;
+}
+.signInForm .input-remember .remember-me{
+	float:left;
+	font-size:0.8em;
+	padding-top: 10px;
+}
+/*提交按钮*/
+.signInForm .button,.signUpForm .button{
+	background:#5bb8ff;
+	border-radius:10px;
+	color:#fff;
+	height:42px;
+	line-height:20px;
+	font-size:16px;
+	margin-top:15px;
+	outline:none;
+}
+/*页脚*/
+#footer{
+	position:absolute;
+	bottom:1px;
+	width:100%;
+	text-align: center;
+}
+.footer{
+	font-size:12px;
+	line-height:42px;
+	margin:0 1px;
+	color:#aebdc9;
+}
+/*二维码下载按钮*/
+.QRcode{
+	position: absolute;
+	right:26px;
+	top:28px;
+}
+.QRcode .downloadLink{
+	display:block;
+	width:160px;
+	height:42px;
+	line-height:42px;
+	color:  #6b9cbd;
+	text-align:center;
+	border: solid 1px #e8e8e8;
+	border-radius:8px;
+	position:relative;
+	background:#fff;
+}
+
+.QRcode .downloadImage{
+	position:absolute;
+	top:15px;
+	left:46px;
+	width:15px;
+	height:15px;
+	background:url(../images/small_download.png) no-repeat -22px -20px ;
+}
+.QRcode .text{
+	margin-left: 24px;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.QRcode .floatImg{
+	width:150px; 
+	height:150px;
+	position:absolute;
+	top:60px;
+	left:5%;
+}
+
+/*JS*/
+.displayNone{
+	display:none;
+}
+.index-tab-navs .active{
+	border-bottom: 2px solid #3291d9;
+	padding-bottom: 5px;
+	color: #3291d9;
+}

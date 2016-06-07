@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>知乎-与世界分享你的知识，经验和见解</title>
+	<link rel='stylesheet' media='screen' href='css/reset.css'>
+	<link rel='stylesheet' media='screen' href='css/global.css'>
+	<link rel='icon' href="images/favicon.ico" />
+<head>
+<body>
+	<header class='index-header'>
+		<h1>知乎</h1>
+		<h2>与世界分享你的知识、经验和见解</h2>
+	</header>
+	<nav class='index-tab-navs'>
+		<a href='#signup'  id='signUp'>注册</a>
+		<a href='#signin' id='signIn' class='active'>登录</a>
+	</nav>
+	<section class ='signUpForm displayNone' >
+		<from action='#' method='post'>
+		<filedset>
+		<input type='text' name='name' placeholder="姓名" required>
+		<input type='text' name='phone' placeholder="手机号（仅支持中国大陆）" required>
+		<input type='text' name='password' placeholder="密码（不少于 6 位）" required>
+		<input type='text' name='name' placeholder="验证码" required>
+		<input type='submit' value='注册知乎' class='button'>
+		</filedset>
+		</from>
+	</section>
+	<section class='signInForm'>
+ 		<form action="#" method='post'>
+  			<filedset>
+				<input type='text' name='account' placeholder='手机号或邮箱' required>
+				<input type='password' name='password' placeholder="密码（不少于6位）" required>
+				<input type='text' name='name' placeholder="验证码" required>
+				<div class='input-remember'>
+					<input type='checkbox' value='true' name='remember' class='rememberButton' checked/>
+					<span class='remember-me'>记住我</span>
+					<a class='unable-login' href='#'>无法登录?</a>
+				</div>
+				<input type='submit' value='登录' class='button'>
+  			</filedset>
+ 		</form>
+	</section>
+	<section class='signup-wrapper displayNone' >
+ 		<a class='sns-login' href='#'>社交帐号登录</a>
+ 		<div class='sns-buttons'>
+ 			<a title='微信登录' class='js-bindwechat' href='#'><span class='sprite-index-icon-wechat'></span></a>
+ 			<a title='微博登录' class='js-bindweibo' href='#'><span class='sprite-index-icon-weibo'></span></a>
+ 			<a title='QQ登录' class='js-bindqq' href='#'><span class='sprite-index-icon-qq'></span></a>
+ 		</div>
+	</section>
+	<section class='QRcode'>
+		<a class='downloadLink' href="#">
+		<div class='downloadImage'></div>
+		<span class='text'>下载知乎</span>
+		<img class='floatImg displayNone' src="images/download.png">
+		</a>		
+	</section>
+	<footer id='footer'>
+		<span class='footer'>@2016 知乎</span>
+		<span class="footer">·</span>
+		<span class='footer'>知乎圆桌</span>
+		<span class="footer">·</span>
+		<span class='footer'>发现</span>
+		<span class="footer">·</span>
+		<span class='footer'>移动应用</span>
+		<span class="footer">·</span>
+		<span class='footer'>来知乎工作</span>
+		<span class="footer">·</span>
+		<span class='footer'>京ICP备 13052560</span>
+		<span class="footer">·</span>
+		<span class='footer'>京公网安备 11010802010035号</span>
+	</footer>
+	<script src='js/jquery-2.2.4.min.js'></script>
+	<script src='js/global.js'></script>
+</body>
+</html>
